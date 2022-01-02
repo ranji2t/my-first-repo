@@ -1,0 +1,81 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    background-color: snow;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: tomato;
+}
+p{
+    color: gray;
+    text-align: justify;
+}
+header {
+    text-align: center;
+    text-transform: capitalize;
+    border-bottom: 3px solid whitesmoke;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    color:tomato;
+  
+}
+.main{
+    
+}
+.main h2{
+    text-align: center;
+    
+}
+.blog-description{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    grid-gap: 30px;
+    padding: 20px;
+}
+.row{
+
+    
+}
+.col{
+    background-color: white;
+    padding: 10px;
+        
+}
+input{
+    width: 300px;
+    display: block;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    transition: .9;
+    border: 2px solid tomato;
+    text-transform: uppercase;
+}
+input:focus{
+    background-color: white;
+    color: black;
+   
+    
+}
+input:hover{
+    width: 100%;
+    transition: .8s;
+}
+.form{
+    width: 80%;
+    padding: 5%;
+    margin: 20px auto;
+    border: 2px solid gray;
+    
+    
+}
